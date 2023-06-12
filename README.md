@@ -7,7 +7,7 @@ David Vieyra A01656030
 
 Daniel Rodríguez A01781933
 
-# Como correr programa
+# Cómo correr el programa
 
 Después de descargar el archivo exs, basta con dirigirse a la dirección del archivo en la terminal de preferencia y ejecutar el comando `iex Actividad5.2.exs`. Contamos con dos opciones para correr los programas con y sin medida de tiempo.
 
