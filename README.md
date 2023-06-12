@@ -13,14 +13,15 @@ Después de descargar el archivo exs, basta con dirigirse a la dirección del ar
 
 Los comandos para medir los tiempos de los programas son:
 
-`Hw.Primes.timed_sum_primes_parallel(5000000, 14)
+`Hw.Primes.timed_sum_primes_parallel(5000000, 14)`
 
-Hw.Primes.timed_sum_primes(5000000)`
+`Hw.Primes.timed_sum_primes(5000000)`
 
 Los comandos normales requeridos para la entrega son: 
-`Hw.Primes.sum_primes_parallel(5000000, 14)
 
-Hw.Primes.sum_primes(5000000)`
+`Hw.Primes.sum_primes_parallel(5000000, 14)`
+
+`Hw.Primes.sum_primes(5000000)`
 
 
 # Reporte de Resultados
