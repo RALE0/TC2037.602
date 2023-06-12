@@ -2,6 +2,7 @@
 Implementación de métodos computacionales
 
 David Vieyra A01656030 
+
 Daniel Rodríguez A01781933
 
 # Reporte de Resultados
