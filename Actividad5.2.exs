@@ -35,11 +35,12 @@ defmodule Hw.Primes do
 
   #Funcion para dividir el rango de numeros en partes iguales
   def divide_range(finish, num_threads) do
-    chunk_size = div(finish, num_threads)
-    remainder = rem(finish, num_threads)
-    Enum.map(0..(num_threads - 1), fn i ->
+    updated_num_threads = if finish < num_threads, do: div(finish, 2), else: num_threads
+    chunk_size = div(finish, updated_num_threads)
+    remainder = rem(finish, updated_num_threads)
+    Enum.map(0..(updated_num_threads - 1), fn i ->
       start = i * chunk_size + 1
-      stop = if i == (num_threads - 1), do: (i + 1) * chunk_size + remainder, else: (i + 1) * chunk_size
+      stop = if i == (updated_num_threads - 1), do: (i + 1) * chunk_size + remainder, else: (i + 1) * chunk_size
       {start, stop}
     end)
     |> IO.inspect()
