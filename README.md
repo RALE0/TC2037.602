@@ -1,13 +1,29 @@
 # TC2037.602
 Implementación de métodos computacionales
 
+Fecha: 11 de junio de 2023
+
 David Vieyra A01656030 
 
 Daniel Rodríguez A01781933
 
-# Reporte de Resultados
+# Como correr programa
 
-Fecha: 11 de junio de 2023
+Después de descargar el archivo exs, basta con dirigirse a la dirección del archivo en la terminal de preferencia y ejecutar el comando `iex Actividad5.2.exs`. Contamos con dos opciones para correr los programas con y sin medida de tiempo.
+
+Los comandos para medir los tiempos de los programas son:
+
+`Hw.Primes.timed_sum_primes_parallel(5000000, 14)
+
+Hw.Primes.timed_sum_primes(5000000)`
+
+Los comandos normales requeridos para la entrega son: 
+`Hw.Primes.sum_primes_parallel(5000000, 14)
+
+Hw.Primes.sum_primes(5000000)`
+
+
+# Reporte de Resultados
 
 En este documento se presentan los resultados obtenidos al comparar el rendimiento de dos funciones: `sum_primes` y `sum_primes_parallel`. Ambas funciones calculan la suma de todos los números primos menores a un límite dado.
 
