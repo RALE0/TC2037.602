@@ -45,7 +45,7 @@ El speedup calculado es aproximadamente 6.92.
 
 ## Conclusión
 
-Comparando ambos enfoques de implementación, se observa que la versión paralela (`sum_primes_parallel`) logró reducir significativamente el tiempo de ejecución en comparación con la implementación convencional (`sum_primes`). Esta mejora se debe a la capacidad de realizar cálculos simultáneos utilizando múltiples hilos de ejecución.
+Comparando ambos enfoques de implementación, se observa que la versión paralela `sum_primes_parallel` logró reducir significativamente el tiempo de ejecución en comparación con la implementación convencional `sum_primes`. Esta mejora se debe a la capacidad de realizar cálculos simultáneos utilizando múltiples hilos de ejecución.
 
 El speedup obtenido de 6.92 indica que la implementación paralela es aproximadamente 6.92 veces más rápida que la implementación secuencial.
 
